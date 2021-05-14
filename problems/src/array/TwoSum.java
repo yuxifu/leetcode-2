@@ -2,6 +2,8 @@ package array;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Created by gouthamvidyapradhan on 11/07/2017. Given an array of integers, return indices of the
@@ -58,5 +60,10 @@ public class TwoSum {
       } else i++;
     }
     return ans;
+  }
+
+  public int[] twoSum2(int[] nums, int target) {
+    Set<Integer> sets = new HashSet<>();
+
   }
 }

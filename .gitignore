@@ -15,3 +15,5 @@ out/
 problems/src.iml
 .idea
 .gradle/
+*.class
+!src/**/*.class
